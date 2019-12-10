@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap');
+
+h1, h2 {
+	font-family:"Zilla Slab"
+}
+/*hero*/
+.hero{
+	height:450px;
+	background: linear-gradient(90deg, #18F2B2 0%, #45F4FF 33.33%, #B2ABF2 67.71%, #89043D 100%);
+	width:100%;
+	color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.heroContentWrapper{
+	height:410px;
+	background-color: #011026;
+	width:100%;
+	margin:20px;
+}
+.myNameIs{
+	color:#b1feff;
+}
+
+.introduction{
+	width:300px;
+	margin: auto;
+	padding-top:60px;
+}
+/*wrappers for main content*/
+.mainContentWrapper{
+	display: flex;
+	justify-content: center;
+}
+.mainColumn{
+	display: flex;
+	flex-direction: column;
+}
+
+.bio{
+	height:225px;
+	width:725px;
+	max-width:90vw;
+	background-color: #011026;
+	position:relative;
+	bottom:75px;
+}
