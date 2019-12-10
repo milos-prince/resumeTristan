@@ -6,6 +6,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Style from "../styles/global.css"
 
+import linkedIN from "../images/linkedIN.svg"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -19,9 +21,20 @@ const IndexPage = () => (
   </div>
   </section>
   <div className="mainContentWrapper">
-  <div className="mainColumn">
+  <div className="column">
   <section className="bio">
-
+    <div className="contact">
+      <p className="contactInfo"><a href="">Get in touch</a> or check me out on: </p><img src={linkedIN} />
+    </div>
+    <div className="bioMainContent">
+      <div className="photoWrapper"></div>
+      <div className="bioWriteup"><p>Mi naskiĝis en Connecticut antaŭ proksimume tridek jaroj. Mia nomo estas David Innes. Mia patro estis riĉa minejposedanto. Li mortis, kiam mi estis deknaŭjara. Laŭ lia testamento mi post la plenaĝiĝo ricevos lian tutan havaĵon, kondiĉe ke dum la antaŭaj du jaroj mi diligente dediĉu min al la heredota granda firmao.</p><p>peepee</p></div>
+    </div>
+  </section>
+  <section className="resume">
+    <div className="titleWrapper">
+      <h1>Resume</h1><div><a href=""><p>Resume</p></a></div>
+    </div>
   </section>
   </div>
   </div>

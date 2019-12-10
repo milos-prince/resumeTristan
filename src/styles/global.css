@@ -1,7 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto|Zilla+Slab&display=swap');
+body{
+	color:#fff;
+	background-color: #011026;
+}
 h1, h2 {
 	font-family:"Zilla Slab"
+}
+p{
+	font-family:"roboto";
+	font-size:16px;
+}
+a{
+	text-decoration: none;
+	color:inherit !important;
+	border-bottom:2px solid #45F4FF;
 }
 /*hero*/
 .hero{
@@ -22,7 +34,6 @@ h1, h2 {
 .myNameIs{
 	color:#b1feff;
 }
-
 .introduction{
 	width:300px;
 	margin: auto;
@@ -33,16 +44,49 @@ h1, h2 {
 	display: flex;
 	justify-content: center;
 }
-.mainColumn{
+.column{
 	display: flex;
 	flex-direction: column;
 }
-
+/*bio section*/
 .bio{
-	height:225px;
+	height:240px;
 	width:725px;
-	max-width:90vw;
+	max-width:85vw;
 	background-color: #011026;
 	position:relative;
 	bottom:75px;
+	margin-bottom:80px;
+}
+.contact{
+	display: flex;
+	justify-content: flex-end;
+	font-size:14px;
+}
+.contactInfo{
+	width:35%;
+}
+.bioMainContent{
+	display:flex;
+}
+.bioWriteup{
+	width:70%;
+}
+.photoWrapper{	
+	width:200px;
+	border-radius:100px;
+	background-color:red;
+	height:200px;
+	margin:20px;
+}
+/*resume section*/
+.resume{
+	height:400px;
+	width:725px;
+	max-width:85vw;
+	margin-bottom:80px;
+}
+.titleWrapper{
+	display: flex;
+	justify-content: space-between;
 }
