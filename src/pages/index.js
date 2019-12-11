@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Style from "../styles/global.css"
 
 import linkedIN from "../images/linkedIn.svg"
+import dl from "../images/download.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +17,7 @@ const IndexPage = () => (
     <div className="introduction">
     <h2>Hey,</h2>
     <h2>My name is</h2>
-    <h1 className="myNameIs">Michael Pinder</h1>
+    <h1 className="myNameIs">Bob Lazerman</h1>
     </div>
   </div>
   </section>
@@ -33,8 +34,15 @@ const IndexPage = () => (
   </section>
   <section className="resume">
     <div className="titleWrapper">
-      <h1>Resume</h1><div><a href=""><p>Resume</p></a></div>
+      <h1>Resume</h1><div className="fancyBox"><div className="d-flex"><p>Resume</p><img src={dl} /></div></div>
     </div>
+    <div className="resumeContentSection"></div>
+  </section>
+  <section className="projects">
+    <div className="titleWrapper">
+      <h1>Projects</h1><div className="fancyBox"><div className="d-flex"><p>Projects</p><img src={dl} /></div></div>
+    </div>
+    
   </section>
   </div>
   </div>

@@ -15,6 +15,9 @@ a{
 	color:inherit !important;
 	border-bottom:2px solid #45F4FF;
 }
+.d-flex{
+	display:flex;
+}
 /*hero*/
 .hero{
 	height:450px;
@@ -75,7 +78,7 @@ a{
 .photoWrapper{	
 	width:200px;
 	border-radius:100px;
-	background-color:red;
+	background-color:gray;
 	height:200px;
 	margin:20px;
 }
@@ -86,7 +89,17 @@ a{
 	max-width:85vw;
 	margin-bottom:80px;
 }
+.resumeContentSection{
+	height:350px;
+	width:100%;
+	background-color: gray;
+}
 .titleWrapper{
 	display: flex;
 	justify-content: space-between;
+}
+.fancyBox{
+	display: flex;
+	flex-direction: row;
+	border :2px solid #45F4FF;
 }
