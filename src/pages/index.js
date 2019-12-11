@@ -6,7 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Style from "../styles/global.css"
 
-import linkedIN from "../images/linkedIN.svg"
+import linkedIN from "../images/linkedIn.svg"
 
 const IndexPage = () => (
   <Layout>
