@@ -18,10 +18,16 @@ a{
 .d-flex{
 	display:flex;
 }
+.no-ul{
+	border-bottom:none;
+}
+.no-margin{
+	margin:0px !important;
+}
 /*hero*/
 .hero{
 	height:450px;
-	background: linear-gradient(90deg, #18F2B2 0%, #45F4FF 33.33%, #B2ABF2 67.71%, #89043D 100%);
+	background: linear-gradient(90deg, #18F2B2 0%, #7F7EFF 32.81%, #7F7EFF 66.67%, #f851f8 97.4%);
 	width:100%;
 	color:white;
 	display: flex;
@@ -29,23 +35,49 @@ a{
 	justify-content: center;
 }
 .heroContentWrapper{
-	height:410px;
+	height:440px;
 	background-color: #011026;
 	width:100%;
-	margin:20px;
+	margin:5px;
 }
 .myNameIs{
-	color:#b1feff;
+	color:#45F4FF;
 }
 .introduction{
 	width:300px;
 	margin: auto;
 	padding-top:60px;
 }
+
+.myNameIs {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid #45F4FF; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	letter-spacing: .05em; /* Adjust as needed */
+	animation: 
+	  typing 1.0s steps(40, end),
+	  blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: #45F4FF; }
+  }
+
+
 /*wrappers for main content*/
 .mainContentWrapper{
 	display: flex;
 	justify-content: center;
+	background-image: url(../images/patternslicefullwidth.svg);
+	background-position: 30%;
 }
 .column{
 	display: flex;
@@ -54,7 +86,7 @@ a{
 /*bio section*/
 .bio{
 	height:240px;
-	width:725px;
+	width:720px;
 	max-width:85vw;
 	background-color: #011026;
 	position:relative;
@@ -67,25 +99,25 @@ a{
 	font-size:14px;
 }
 .contactInfo{
-	width:35%;
+	width:45%;
+	max-width:240px;
 }
 .bioMainContent{
 	display:flex;
 }
 .bioWriteup{
 	width:70%;
+	display: flex;
+	justify-content: center;
 }
 .photoWrapper{	
-	width:200px;
-	border-radius:100px;
-	background-color:gray;
-	height:200px;
-	margin:20px;
+	max-width:200px;
+	margin-right:30px;
 }
 /*resume section*/
 .resume{
 	height:400px;
-	width:725px;
+	width:720px;
 	max-width:85vw;
 	margin-bottom:80px;
 }
@@ -102,4 +134,82 @@ a{
 	display: flex;
 	flex-direction: row;
 	border :2px solid #45F4FF;
+	background-color: #011026;
+	height:30px;
+	width:100px;
+	margin-top:10px;
+	padding:0px 10px;
+}
+.fancyBox img{
+	margin:3px 10px;
+	width:20px;
+	height:20px;
+}
+
+/*Projects section*/
+.projects{
+	height:650px;
+	width:720px;
+	max-width:85vw;
+	margin-bottom:80px;
+}
+.projectsContentSection{
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+.quarterBox{
+	height:300px;
+}
+.a{
+	background-color: #18F2B2;
+}
+.b{
+	background-color: #7F7EFF;
+}
+.c{
+	background-color: #45F4FF;
+}
+.d{
+	background-color: #f851f8;
+}
+.fancyBox2{
+	display: flex;
+	flex-direction: row;
+	border :2px solid #45F4FF;
+	background-color: #011026;
+	height:30px;
+	width:110px;
+	padding:0px 10px;
+	margin:0px 10px;
+}
+.my-1{
+	margin:3px 0px;
+}
+.lastLine{
+	margin-bottom:50px;
+}
+
+@media screen and (max-width: 800px) {
+
+	
+	.projects{
+		height:400px;
+	}
+	.quarterBox{
+		height:180px;
+	}
+	}
+
+@media screen and (max-width: 600px) {
+p {font-size: 14px;}
+.photoWrapper{
+	width:30%;
+}
+.bio{
+	height:200px;
+}
+.myNameIs {
+
+	letter-spacing: .1em; /* Adjust as needed */}
+
 }
