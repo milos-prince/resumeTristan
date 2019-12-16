@@ -29,7 +29,7 @@ const IndexPage = () => (
     </div>
     <div className="bioMainContent">
       <div className="photoWrapper"><img src={gatsbyGuy} /></div>
-      <div className="bioWriteup"><p>Mi naskiĝis en Connecticut antaŭ proksimume tridek jaroj. Mia nomo estas David Innes. Mia patro estis riĉa minejposedanto. Li mortis, kiam mi estis deknaŭjara. Laŭ lia testamento mi post la plenaĝiĝo ricevos lian tutan havaĵon, kondiĉe ke dum la antaŭaj du jaroj mi diligente dediĉu min al la heredota granda firmao. Beetley beetley beetley beetley beetley beetley beetley.</p></div>
+      <div className="bioWriteup"><p>I'm a (mostly) Front-end developer from Saskatchewan, currently living in Montreal, QC. I firmly believe that Skyrim belongs to everybody. </p></div>
     </div>
   </section>
   <section className="resume">
@@ -44,10 +44,10 @@ const IndexPage = () => (
     </div>
     <div className="projectsContentSection">
       
-      <div className="quarterBox a">a</div><div className="quarterBox b">b</div><div className="quarterBox c">c</div><div className="quarterBox d">d</div>
+      <div className="quarterBox a"></div><div className="quarterBox b"></div><div className="quarterBox c"></div><div className="quarterBox d"></div>
     </div>
   </section>
-  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2"><p>Contact me</p></div></a></div>
+  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>
   </div>
   </div>
   </Layout>
