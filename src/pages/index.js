@@ -29,7 +29,7 @@ const IndexPage = () => (
     </div>
     <div className="bioMainContent">
       <div className="photoWrapper"><img src={gatsbyGuy} /></div>
-      <div className="bioWriteup"><p>I'm a (mostly) Front-end developer from Saskatchewan, currently living in Montreal, QC. I firmly believe that Skyrim belongs to everybody. </p></div>
+      <div className="bioWriteup"><p>I'm a (mostly) front end developer born and raised in Saskatchewan, currently living my best life in Montreal, QC. I use a variety of tools to make beautiful and functional things on the internet. I firmly believe that Skyrim belongs to everybody.<br /><br /> I work alongside a fantastic team at <a href="https://www.jonar.com">Jonar</a> that I am very proud to be a part of.</p></div>
     </div>
   </section>
   <section className="resume">

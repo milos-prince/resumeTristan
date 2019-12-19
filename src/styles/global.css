@@ -79,6 +79,7 @@ a{
 	justify-content: center;
 	background-image: url(../images/patternslicefullwidth.svg);
 	background-position: 30%;
+	background-repeat: repeat-y;
 }
 .column{
 	display: flex;
