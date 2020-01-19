@@ -9,6 +9,7 @@ import linkedIN from "../images/linkedIn.svg"
 import dl from "../images/download.svg"
 import gatsbyGuy from "../images/gatsby-icon.png"
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -44,7 +45,10 @@ const IndexPage = () => (
     </div>
     <div className="projectsContentSection">
       
-      <div className="quarterBox a"></div><div className="quarterBox b"></div><div className="quarterBox c"></div><div className="quarterBox d"></div>
+      <div className="quarterBox bg-paragon"><a href="https://www.paragon-erp.com"><div className="a"><h2>paragon-erp.com</h2><p>As an employee of Jonar, I was responsible for building and launching of a new website promoting Jonar's flagship product, ParagonERP. Built using Gatsby, a static site generator for React, and deployed with Netlify.</p></div></a></div>
+      <div className="quarterBox bg-jonar"><a href="https://www.jonar.com"><div className="b"><h2>jonar.com</h2><p>After the ParagonERP.com project, Jonar.com was migrated away from Wordpress and rebuilt, again using Gatsby/ReactJS.</p></div></a></div>
+      <div className="quarterBox bg-evans"><a href="https://www.janeevans.ca"><div className="c"><h2>janeevans.ca</h2><p>Portfolio site built for artist Jane Evans to showcase her work and methods. Built in Wordpress.</p></div></a></div>
+      <div className="quarterBox bg-ufcw"><a href="https://www.ufcw1400.ca"><div className="d"><h2>ufcw1400.ca</h2><p>Information portal built for a local union, the UFCW1400, to host documents and provide updates to members. Built in Wordpress.</p></div></a></div>
     </div>
   </section>
   <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>

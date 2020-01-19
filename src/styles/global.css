@@ -162,6 +162,38 @@ a{
 .quarterBox{
 	height:300px;
 }
+.quarterOverlay{
+	position: absolute;;
+}
+
+.a:hover, .b:hover, .c:hover, .d:hover{
+	opacity: 1;
+}
+.bg-paragon{
+	background-image:url(../images/paragonScreenshot.png);
+	background-size: cover;
+	background-position: top center;
+
+	
+}
+.bg-jonar{
+	background-image:url(../images/jonarScreenshot.png);
+	background-size: cover;
+	background-position: top left;
+
+}
+.bg-evans{
+	background-image:url(../images/janeEvansScreenshot.png);
+	background-size: cover;
+	background-position: top center;
+	
+}
+.bg-ufcw{
+	background-image:url(../images/ufcwScreenshot.png);
+	background-size: cover;
+	background-position: top center;
+	
+}
 .a{
 	background-color: #18F2B2;
 }
@@ -173,6 +205,12 @@ a{
 }
 .d{
 	background-color: #f851f8;
+}
+.a, .b, .c, .d {
+	height:100%;
+	padding:10%;
+	opacity:0;
+	transition:opacity .1s ease-in;
 }
 .fancyBox2{
 	display: flex;
@@ -200,6 +238,10 @@ a{
 	.quarterBox{
 		height:180px;
 	}
+	.a, .b, .c, .d {
+		opacity: 1;
+	}
+
 	}
 
 @media screen and (max-width: 600px) {
