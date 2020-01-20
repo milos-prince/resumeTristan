@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Zilla+Slab:300&display=swap');
 body{
 	color:#fff;
 	background-color: #011026;
@@ -7,22 +7,28 @@ h1, h2 {
 	font-family:"Zilla Slab"
 }
 p{
-	font-family:"roboto";
+	font-family:"Cabin";
 	font-size:16px;
 }
 a{
 	text-decoration: none;
 	color:inherit !important;
-	border-bottom:2px solid #45F4FF;
+	border-bottom:2px solid #15E7AA;
 }
 .d-flex{
 	display:flex;
+}
+.d-none{
+	display:none;
 }
 .no-ul{
 	border-bottom:none;
 }
 .no-margin{
 	margin:0px !important;
+}
+button, li{
+	font-family:"Cabin";
 }
 /*hero*/
 .hero{
@@ -118,15 +124,16 @@ a{
 }
 /*resume section*/
 .resume{
-	height:400px;
+	height:500px;
 	width:720px;
 	max-width:85vw;
 	margin-bottom:80px;
 }
 .resumeContentSection{
-	height:350px;
+	height:450px;
 	width:100%;
-	background-color: gray;
+	background-color: #011026;
+	padding:3%;
 }
 .titleWrapper{
 	display: flex;
@@ -135,7 +142,7 @@ a{
 .fancyBox{
 	display: flex;
 	flex-direction: row;
-	border :2px solid #45F4FF;
+	border :2px solid #15E7AA;
 	background-color: #011026;
 	height:30px;
 	width:100px;
@@ -147,6 +154,27 @@ a{
 	width:20px;
 	height:20px;
 }
+.toggleRow{
+	padding-bottom:15px;
+	font-size:20px;
+}
+.fancyButton{
+	margin-right:10px;
+	background-color: #011026;
+	color:#fff;
+	border:2px solid #011026;;
+	border-bottom:2px solid #15E7AA;
+}
+.activeFancyButton{
+	border:2px solid #15E7AA;
+}
+.fancyButton:focus{
+	outline:none;
+}
+.fancyButton:hover{
+	cursor: pointer;
+}
+
 
 /*Projects section*/
 .projects{
@@ -173,26 +201,21 @@ a{
 	background-image:url(../images/paragonScreenshot.png);
 	background-size: cover;
 	background-position: top center;
-
-	
 }
 .bg-jonar{
 	background-image:url(../images/jonarScreenshot.png);
 	background-size: cover;
 	background-position: top left;
-
 }
 .bg-evans{
 	background-image:url(../images/janeEvansScreenshot.png);
 	background-size: cover;
 	background-position: top center;
-	
 }
 .bg-ufcw{
 	background-image:url(../images/ufcwScreenshot.png);
 	background-size: cover;
 	background-position: top center;
-	
 }
 .a{
 	background-color: #18F2B2;
@@ -210,23 +233,26 @@ a{
 	height:100%;
 	padding:10%;
 	opacity:0;
-	transition:opacity .1s ease-in;
+	transition:opacity .1s linear;
 }
 .fancyBox2{
 	display: flex;
 	flex-direction: row;
-	border :2px solid #45F4FF;
+	border :2px solid #15E7AA;
 	background-color: #011026;
 	height:30px;
 	width:110px;
 	padding:0px 10px;
-	margin:0px 10px;
+	margin-left:10px;
 }
 .my-1{
 	margin:3px 0px;
 }
 .lastLine{
 	margin-bottom:50px;
+}
+.cm{
+	margin-left:2px;
 }
 
 @media screen and (max-width: 800px) {
@@ -238,14 +264,28 @@ a{
 	.quarterBox{
 		height:180px;
 	}
+	.quarterBox h2{
+		margin-bottom:10px;
+	}
 	.a, .b, .c, .d {
 		opacity: 1;
+		padding:5%;
+	}
+	p {font-size: 14px;}
+	h2{
+		font-size:14pt;
+	}
+	.cm{
+		margin-left:7px;
+	}
+	.hideOnS{
+		display:none;
 	}
 
 	}
 
 @media screen and (max-width: 600px) {
-p {font-size: 14px;}
+	
 .photoWrapper{
 	width:30%;
 }
@@ -254,8 +294,7 @@ p {font-size: 14px;}
 }
 .myNameIs {
 	letter-spacing: .045em; /* Adjust as needed */}
-.cm{
-	margin-left:7px;
-}
+
+
 
 }
