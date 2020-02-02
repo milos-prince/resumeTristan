@@ -8,7 +8,7 @@ import Style from "../styles/global.css"
 
 import linkedIN from "../images/linkedIn.svg"
 import dl from "../images/download.svg"
-import gatsbyGuy from "../images/gatsby-icon.png"
+import profile from "../images/t1.jpg"
 
 
 const IndexPage = () => (
@@ -30,7 +30,7 @@ const IndexPage = () => (
       <p className="contactInfo"><a href="mailto:michael@freedomgopher.com">Get in touch</a> or check me out on</p><a href="https://www.linkedin.com/in/michael-pinder-06b05b194/" className="no-ul"><img src={linkedIN} className="my-1"/></a>
     </div>
     <div className="bioMainContent">
-      <div className="photoWrapper"><img src={gatsbyGuy} /></div>
+      <div className="photoWrapper"><img src={profile} /></div>
       <div className="bioWriteup"><p>I'm a (mostly) front end developer born and raised in Saskatchewan, currently living my best life in Montreal, QC. I use a variety of tools to make beautiful and functional things on the internet. I firmly believe that Skyrim belongs to everybody.<br /><br /> I work alongside a fantastic team at <a href="https://www.jonar.com">Jonar</a> that I am very proud to be a part of.</p></div>
     </div>
   </section>
