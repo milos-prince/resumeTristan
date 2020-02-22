@@ -62,7 +62,7 @@ button, li{
 	letter-spacing: .033em; /* Adjust */
 	animation: 
 	  typing 1.0s steps(40, end),
-	  blink-caret .75s step-end 5;
+	  blink-caret .75s step-end 3;
   }
   
   /* The typing effect */
