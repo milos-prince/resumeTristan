@@ -36,7 +36,7 @@ const IndexPage = () => (
   </section>
   <section className="resume">
     <div className="titleWrapper">
-      <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href="../../static/resumeJan2020.pdf" download><div className="d-flex"><p>Resume</p><img src={dl} /></div></a></div>
+      <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href="https://affectionate-colden-9c3357.netlify.com/static/resumeJan2020.pdf" download><div className="d-flex"><p>Resume</p><img src={dl} /></div></a></div>
     </div>
     <div className="resumeContentSection">
       <Resume />
