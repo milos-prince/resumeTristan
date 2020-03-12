@@ -93,13 +93,12 @@ button, li{
 }
 /*bio section*/
 .bio{
-	height:240px;
+	
 	width:720px;
 	max-width:85vw;
 	background-color: #011026;
 	position:relative;
 	bottom:75px;
-	margin-bottom:80px;
 }
 .contact{
 	display: flex;
@@ -127,13 +126,13 @@ button, li{
 }
 /*resume section*/
 .resume{
-	height:500px;
+	min-height:500px;
 	width:720px;
 	max-width:85vw;
-	margin-bottom:80px;
+	margin-bottom:10vw;
 }
 .resumeContentSection{
-	height:450px;
+
 	width:100%;
 	background-color: #011026;
 	padding:3%;
@@ -259,7 +258,16 @@ button, li{
 }
 
 @media screen and (max-width: 800px) {
-
+	.bioMainContent{
+		flex-direction: column;
+		align-items: center;
+	}
+	.bio{
+		margin:auto;
+	}
+	.photoWrapper{
+		margin-right:0px;
+	}
 	
 	.projects{
 		height:400px;
@@ -285,19 +293,23 @@ button, li{
 		display:none;
 	}
 
+
 	}
 
 @media screen and (max-width: 600px) {
 	
-.photoWrapper{
-	width:30%;
-}
-.bio{
-	height:200px;
-}
+
+
 .myNameIs {
 	letter-spacing: .045em; /* Adjust as needed */}
 
-
+	.toggleRow{
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 20px;
+	}
+	.fancyButton{
+		font-size:18px;
+	}
 
 }

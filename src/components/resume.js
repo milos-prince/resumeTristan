@@ -75,7 +75,7 @@ sized companies.</p>
              <button className="fancyButton activeFancyButton" onClick={() => this.setTab(2)}>Tools</button>
               </div>
              <h3>Here's a list of tools/technologies I've been using lately:</h3><ul>
-             <li>HTML/CSS/JS</li><li> React, Gatsby, Netlify</li><li> Bootstrap, jQuery, Git</li><li> Wordpress, Squarespace, Photoshop, After Effects</li>
+             <li>HTML/CSS/JS</li><li>React</li><li>Gatsby, Netlify</li><li> Bootstrap, jQuery</li><li>Node.js</li><li>Git</li><li>Various CMS's</li>
              </ul>
             </div>
           );
