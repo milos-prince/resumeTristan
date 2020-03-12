@@ -220,16 +220,20 @@ button, li{
 	background-position: top center;
 }
 .a{
-	background-color: #3ae4b1;
+	background-color: #15E7AA;
+	color:#011026;
 }
 .b{
 	background-color: #7F7EFF;
+	color:#011026;
 }
 .c{
 	background-color: #24e5f3;
+	color:#011026;
 }
 .d{
 	background-color: #f860f8;
+	color:#011026;
 }
 .a, .b, .c, .d {
 	height:100%;
