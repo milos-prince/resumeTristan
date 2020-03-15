@@ -54,7 +54,6 @@ button, li{
 	margin: auto;
 	padding-top:100px;
 }
-
 .myNameIs {
 	overflow: hidden; 
 	border-right: .33em solid transparent; /* The typwriter cursor */
@@ -63,11 +62,10 @@ button, li{
 	animation: 
 	  typing 1.0s steps(40, end),
 	  blink-caret .75s step-end 3;
+	  font-size:40px;
   }
-  
   /* The typing effect */
   @keyframes typing {
-	
 	from { width: 0 }
 	to { width: 100% }
   }
@@ -77,7 +75,6 @@ button, li{
 	from, to { border-color: transparent }
 	50% { border-color: #45F4FF; }
   }
-
 
 /*wrappers for main content*/
 .mainContentWrapper{
