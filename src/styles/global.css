@@ -194,51 +194,27 @@ button, li{
 .quarterOverlay{
 	position: absolute;;
 }
-
 .a:hover, .b:hover, .c:hover, .d:hover{
 	opacity: 1;
 }
 .bg-paragon{
-	background-image:url(../images/paragonScreenshot.png);
-	background-size: cover;
-	background-position: top center;
+	border:2px solid #f851f8;
+	background-color: #021429;
 }
 .bg-jonar{
-	background-image:url(../images/jonarScreenshot.png);
-	background-size: cover;
-	background-position: top left;
+	border:2px solid blue;
+	background-color: #021429;
 }
 .bg-evans{
-	background-image:url(../images/janeEvansScreenshot.png);
-	background-size: cover;
-	background-position: top center;
+	border:2px solid #18F2B2;
+	background-color: #021429;
 }
 .bg-ufcw{
-	background-image:url(../images/ufcwScreenshot.png);
-	background-size: cover;
-	background-position: top center;
+	border:2px solid #7F7EFF;
+	background-color: #021429;
 }
-.a{
-	background-color: #15E7AA;
-	color:#011026;
-}
-.b{
-	background-color: #7F7EFF;
-	color:#011026;
-}
-.c{
-	background-color: #24e5f3;
-	color:#011026;
-}
-.d{
-	background-color: #f860f8;
-	color:#011026;
-}
-.a, .b, .c, .d {
-	height:100%;
+.quarterBox{
 	padding:10%;
-	opacity:0;
-	transition:opacity .1s linear;
 }
 .fancyBox2{
 	display: flex;
