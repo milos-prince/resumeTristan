@@ -108,6 +108,8 @@ button, li{
 }
 .bioMainContent{
 	display:flex;
+	background: #021429;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .bioWriteup{
 	width:70%;
@@ -129,9 +131,9 @@ button, li{
 	margin-bottom:10vw;
 }
 .resumeContentSection{
-
+	background: #021429;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	width:100%;
-	background-color: #011026;
 	padding:3%;
 }
 .titleWrapper{
