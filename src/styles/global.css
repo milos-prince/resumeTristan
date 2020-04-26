@@ -34,11 +34,12 @@ button, li{
 .hero{
 	height:450px;
 	background: linear-gradient(90deg, #18F2B2 0%, #7F7EFF 32.81%, #7F7EFF 66.67%, #f851f8 97.4%);
-	width:100%;
+	width:96%;
 	color:white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin:2% 2% 0% 2%;
 }
 .heroContentWrapper{
 	height:440px;
