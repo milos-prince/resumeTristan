@@ -10,6 +10,7 @@ import Projects from "../components/projects"
 import linkedIN from "../images/linkedIn.svg"
 import dl from "../images/download.svg"
 import profile from "../images/t1.jpg"
+import resume from "../../static/resumeMar2020.pdf"
 
 
 const IndexPage = () => (
@@ -37,7 +38,7 @@ const IndexPage = () => (
   </section>
   <section className="resume">
     <div className="titleWrapper">
-      <h1>Resume</h1><div className="fancyBox"><div className="d-flex"><p>Resume</p><img src={dl} /></div></div>
+      <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href={resume} download><div className="d-flex"><p>Resume</p><img src={dl} /></div></a></div>
     </div>
     <div className="resumeContentSection">
       <Resume />
