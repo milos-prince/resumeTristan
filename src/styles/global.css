@@ -116,6 +116,7 @@ button, li{
 	width:70%;
 	display: flex;
 	justify-content: center;
+	padding: 10px 20px;
 }
 .photoWrapper{	
 	max-width:200px;
