@@ -9,7 +9,7 @@ import Projects from "../components/projects"
 
 import linkedIN from "../images/linkedIn.svg"
 import dl from "../images/download.svg"
-import profile from "../images/t1.jpg"
+import profile from "../images/t1Compressed.jpg"
 import resume from "../../static/resumeMar2020.pdf"
 
 
