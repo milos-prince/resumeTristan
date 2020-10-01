@@ -1,12 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Resume from "../components/resume"
 import Projects from "../components/projects"
-
-
 import linkedIN from "../images/linkedIn.svg"
 import dl from "../images/download.svg"
 import profile from "../images/t1Compressed.jpg"
