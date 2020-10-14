@@ -13,40 +13,88 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <section className="hero">
-      <div className="heroContentWrapper">
     <div className="introduction">
-    <h2>Hey,</h2>
-    <h2>My name is</h2>
-    <h1 className="myNameIs">Michael Pinder</h1>
+    <h1 className="myNameIs">Tristan Biehn</h1>
+    <h2>UX/UI Designer</h2>
+    <p className="bio">I draw from a background in Anthropology and ethnographic research to bring critical insights, incisive analysis, and a well-honed sense of empathy to the field of user experience. For UI work, I tap a lifelong passion for art and design that was never quite snuffed out by people telling me I’d “never get a job doing that”.</p>
+    <p>Get in touch or check me out on LinkedIn.</p>
     </div>
-  </div>
+
+    <div className="photoWrapper">
+      <img src={profile} alt="Profile picture"/>
+    </div>
+
   </section>
   <div className="mainContentWrapper">
   <div className="column">
-  <section className="bio">
-    <div className="contact">
-      <p className="contactInfo"><a href="mailto:michael@freedomgopher.com">Get in touch</a> or check me out on</p><a href="https://www.linkedin.com/in/michael-pinder-06b05b194/" className="no-ul"><img src={linkedIN} className="my-1" alt="linkedIN logo"/></a>
+  <section className="projects">
+    <div className="titleWrapper">
+      <h1>Projects</h1>
+      <div className="fancyBox"><div className="d-flex"><p>Projects</p><img src={dl} /></div></div>
     </div>
-    <div className="bioMainContent">
-      <div className="photoWrapper"><img src={profile} alt="Profile picture"/></div>
-      <div className="bioWriteup"><p>I'm a (mostly) front end developer born and raised in Saskatchewan, currently living my best life in Montreal, QC. I use a variety of tools to make beautiful and functional things on the internet. I firmly believe that Skyrim belongs to everybody.<br /><br /> I work alongside a fantastic team at <a href="https://www.jonar.com">Jonar</a> that I am very proud to be a part of.</p></div>
-    </div>
+    <Projects />
   </section>
   <section className="resume">
     <div className="titleWrapper">
       <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href={resume} download><div className="d-flex"><p>Resume</p><img src={dl} alt="download icon"/></div></a></div>
-    </div>
-    <div className="resumeContentSection">
-      <Resume />
-    </div>
-  </section>
-  <section className="projects">
-    <div className="titleWrapper">
-      <h1>Projects</h1>
-      {/*<div className="fancyBox"><div className="d-flex"><p>Projects</p><img src={dl} /></div></div>
-      This is for Tristan's resume*/}
-    </div>
-    <Projects />
+      </div>
+      <div className="resumeSection">
+      <h2>
+      General Skills
+      </h2>
+      <p>
+      Design tools: Sketch, InVision, Figma
+      Designing for software, mobile, and web.
+      Paying close attention to detail without losing track of the larger scale.
+      Collecting and analysing data, identifying and solving complex problems.
+      Translating ideas and facilitating communication between diverse groups.
+      Working within an agile design process, collaborating with other internal teams.
+      </p>
+      </div>
+      <div className="resumeSection">
+      <h2>
+      UI
+      </h2>
+      <p>
+      Developing mockups and prototypes.
+      Designing graphic interface elements.
+      Ensuring continuity in visual elements throughout the project.
+      Creating, using, and adding to component libraries and style guides.
+      Illustrating design ideas using storyboards, process flows, and site maps.
+      </p>
+      </div>
+      <div className="resumeSection">
+      <h2>
+      UX
+      </h2>
+      <p>
+      Project planning and communication.
+      Developing wireframes, mockups, and prototypes.
+      Mobilizing qualitative and quantitative research techniques.
+      Communicating design ideas and prototypes to developers.
+      Gathering and evaluating user requirements in collaboration with other teams.
+      </p>
+      </div>
+      <div className="resumeSection">
+      <h2>
+      Recent Employment History
+      </h2>
+      <ul>
+        <li>UX/UI Designer at Jonar <span className="gray">2018 – 2019.</span></li>
+        <li>Research Assistant <span className="gray">2015 – 2017.</span></li>
+        <li>Teaching Assistant <span className="gray">2015 – 2017.</span></li>
+      </ul>
+      </div>
+      <div className="resumeSection">
+      <h2>
+      Education
+      </h2>
+      <p>
+      Master’s in Cultural Anthropology at Concordia University <span className="gray">Ongoing.</span>
+      <br />
+      Bachelor’s with Honours in Sociology and Anthropology from Concordia University.
+      </p>
+      </div>
   </section>
   <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>
   </div>
