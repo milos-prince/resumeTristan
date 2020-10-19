@@ -14,7 +14,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <section className="hero">
     <div className="introduction">
-    <h1 className="myNameIs">Tristan Biehn</h1>
+    <div className="rainbowWrap"><div className="titleWrapper"><h1>Tristan Biehn</h1></div></div>
     <h2>UX/UI Designer</h2>
     <p className="bio">I draw from a background in Anthropology and ethnographic research to bring critical insights, incisive analysis, and a well-honed sense of empathy to the field of user experience. For UI work, I tap a lifelong passion for art and design that was never quite snuffed out by people telling me I’d “never get a job doing that”.</p>
     <p>Get in touch or check me out on LinkedIn.</p>
@@ -28,16 +28,17 @@ const IndexPage = () => (
   <div className="mainContentWrapper">
   <div className="column">
   <section className="projects">
-    <div className="titleWrapper">
+  <div className="rainbowWrap"><div className="titleWrapper">
       <h1>Projects</h1>
       <div className="fancyBox"><div className="d-flex"><p>Projects</p><img src={dl} /></div></div>
+    </div>
     </div>
     <Projects />
   </section>
   <section className="resume">
-    <div className="titleWrapper">
+  <div className="rainbowWrap"><div className="titleWrapper">
       <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href={resume} download><div className="d-flex"><p>Resume</p><img src={dl} alt="download icon"/></div></a></div>
-      </div>
+      </div></div>
       <div className="resumeSection">
       <h2>
       General Skills
