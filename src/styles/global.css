@@ -110,15 +110,20 @@ button, li{
 }
 /*resume section*/
 
+
+.rainbowWrap{
+	padding-bottom:5px;
+	margin-bottom:30px;
+	background: linear-gradient(to right, orange 10%, plum 20%, purple 55%, darkblue 70%, lightblue 78%, aqua 90%);
+}
 .titleWrapper{
 	display: flex;
 	justify-content: start;
-	height:75%;
 	background: white;
+	padding-bottom: 10px;
 }
-.rainbowWrap{
-	height:75px;
-	background: linear-gradient(to right, orange 10%, plum 20%, purple 55%, darkblue 70%, lightblue 78%, aqua 90%);
+.titleWrapper h1{
+	margin-bottom: 0px;
 }
 .fancyBox{
 	display: flex;
