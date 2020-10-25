@@ -1,11 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "./layout"
-import SEO from "./seo"
-import Resume from "./resume"
-import Style from "../styles/global.css"
-
 
 const Projects = () => (
 
