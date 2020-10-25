@@ -6,10 +6,6 @@ import SEO from "./seo"
 import Resume from "./resume"
 import Style from "../styles/global.css"
 
-import linkedIN from "../images/linkedIn.svg"
-import dl from "../images/download.svg"
-import profile from "../images/t1.jpg"
-
 
 const Projects = () => (
 
