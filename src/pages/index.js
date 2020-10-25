@@ -5,7 +5,7 @@ import Resume from "../components/resume"
 import Projects from "../components/projects"
 import linkedIN from "../images/linkedIn.svg"
 import dl from "../images/download.svg"
-import profile from "../images/t1Compressed.jpg"
+import profile from "../images/compressedButStillProfesh.jpg"
 import resume from "../../static/resumeMar2020.pdf"
 
 
@@ -14,9 +14,9 @@ const IndexPage = () => (
     <SEO title="Home" />
     <section className="hero">
     <div className="introduction">
-    <div className="rainbowWrap"><div className="titleWrapper"><h1>Tristan Biehn</h1></div></div>
+    <div className="rainbowWrap"><div className="titleWrapper"><h1 id="myName">Tristan Biehn</h1></div></div>
     <h2>UX/UI Designer</h2>
-    <p className="bio">I draw from a background in Anthropology and ethnographic research to bring critical insights, incisive analysis, and a well-honed sense of empathy to the field of user experience. For UI work, I tap a lifelong passion for art and design that was never quite snuffed out by people telling me I’d “never get a job doing that”.</p>
+    <p className="bio">I’m a Montreal-based designer who draws from a background in Anthropology and ethnographic research to bring critical insights, incisive analysis, and a well-honed sense of empathy to the field of user experience. I’m into food and travel and I’ll drive any number of hours for really good beer.</p>
     <p>Get in touch or check me out on LinkedIn.</p>
     </div>
 
@@ -28,16 +28,16 @@ const IndexPage = () => (
   <div className="mainContentWrapper">
   <div className="column">
   <section className="projects">
-  <div className="rainbowWrap"><div className="titleWrapper">
+  <div className="rainbowWrap smallRainbow"><div className="titleWrapper">
       <h1>Projects</h1>
-      <div className="fancyBox"><div className="d-flex"><p>Projects</p><img src={dl} /></div></div>
+      <div className="fancyBox"><div className="d-flex"><p>Download</p><img src={dl} /></div></div>
     </div>
     </div>
     <Projects />
   </section>
   <section className="resume">
-  <div className="rainbowWrap"><div className="titleWrapper">
-      <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href={resume} download><div className="d-flex"><p>Resume</p><img src={dl} alt="download icon"/></div></a></div>
+  <div className="rainbowWrap smallRainbow"><div className="titleWrapper">
+      <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href={resume} download><div className="d-flex"><p>Download</p><img src={dl} alt="download icon"/></div></a></div>
       </div></div>
       <div className="resumeSection">
       <h2>
@@ -97,7 +97,7 @@ const IndexPage = () => (
       </p>
       </div>
   </section>
-  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>
+  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2 cm">Contact me</div></a></div>
   </div>
   </div>
   </Layout>
