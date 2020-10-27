@@ -62,7 +62,7 @@ button, li{
 	justify-content: space-between;
 }
 .bio{
-	max-width:600px;
+	max-width:720px;
 }
 
 .photoWrapper{	
@@ -88,7 +88,6 @@ button, li{
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
 	grid-gap: 1rem;
-	
 }
 .projectsContentSection h2, .projectsContentSection h3{
 font-family:"Poppins"
@@ -194,22 +193,21 @@ font-family: "Zilla Slab";
 	margin-bottom:10px;
 }
 
+@media screen and (max-width: 1120px) {
+	.photoWrapper{
+		display: none;
+	}
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
 	.bioMainContent{
 		flex-direction: column;
 		align-items: center;
 	}
 	.bio{
 		margin:auto;
-	}
-	.photoWrapper{
-		margin-right:0px;
-	}
+	}	
 	
-	.projects{
-		height:400px;
-	}
 	.quarterBox{
 		height:180px;
 	}
@@ -234,19 +232,19 @@ font-family: "Zilla Slab";
 
 	}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 755px) {
 	
-
-	.toggleRow{
-		display: flex;
-		justify-content: space-around;
-		margin-bottom: 20px;
-	}
 	.fancyButton{
 		font-size:18px;
 	}
 	body{
-		margin:60px;
+		margin:30px;
+	}
+	.projectsContentSection{
+		display: grid;
+		grid-template-columns: repeat(1, 100%);
+		grid-gap: 1rem;
+		margin:0px 30px;
 	}
 
 }

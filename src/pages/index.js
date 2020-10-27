@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Projects from "../components/projects"
 import dl from "../images/download.svg"
 import profile from "../images/compressedButStillProfesh.jpg"
-import resume from "../../static/resumeMar2020.pdf"
+import resume from "../../static/tristanOct2020.pdf"
 import "../styles/global.css"
 
 
