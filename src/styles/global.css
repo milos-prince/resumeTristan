@@ -67,7 +67,7 @@ button, li{
 
 .photoWrapper{	
 	max-width:200px;
-	margin:0px 100px;
+	margin:0px 15% 0px 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -86,7 +86,7 @@ button, li{
 }
 .projectsContentSection{
 	display: grid;
-	grid-template-columns: repeat(2, 50%);
+	grid-template-columns: repeat(2, 49%);
 	grid-gap: 1rem;
 }
 .projectsContentSection h2, .projectsContentSection h3{
@@ -193,13 +193,10 @@ font-family: "Zilla Slab";
 	margin-bottom:10px;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1170px) {
 	.photoWrapper{
 		display: none;
 	}
-}
-
-@media screen and (max-width: 1100px) {
 	.bioMainContent{
 		flex-direction: column;
 		align-items: center;
