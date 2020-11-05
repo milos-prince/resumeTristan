@@ -3,8 +3,14 @@
 body{
 	color:black;
 	background-color: white;
-	margin:60px 140px;
+	margin:0px;
 	--blood: #89043D;
+}
+.pageWrapper{
+	max-width:1000px;
+	background: white;
+	margin:0px auto;
+	padding-top:60px;
 }
 h1, h2 {
 	font-family:"Poppins";
@@ -27,14 +33,30 @@ footer{
 	font-family: "Poppins";
 }
 ul {
+	padding-top:10px;
 	list-style: none;
-	padding-left: 0px;
+	font-size:16px;
+   }
+li{
+	line-height: 20px;
 }
+   
+   ul li::before {
+	content: "\2022";
+	color: #18F2B2;
+	font-weight: bold;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+   }
 .d-flex{
 	display:flex;
 }
 .d-none{
 	display:none;
+}
+.center{
+	justify-content: center;
 }
 .column{
 	display: flex;
@@ -62,12 +84,12 @@ button, li{
 	justify-content: space-between;
 }
 .bio{
-	max-width:720px;
+	max-width:660px;
 }
 
 .photoWrapper{	
 	max-width:200px;
-	margin:0px 15% 0px 100px;
+	margin-left:100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -80,8 +102,7 @@ button, li{
 	margin-top:100px;
 }
 .projects{
-	width:85%;
-	max-width:85vw;
+
 	margin-bottom:150px;
 }
 .projectsContentSection{
@@ -134,7 +155,7 @@ font-family:"Poppins"
 }
 .lastLine{
 	margin-bottom:50px;
-	margin-top: 60px;
+	margin-top: 150px;
 }
 .lastLine p{
 	padding-top:10px;
@@ -203,6 +224,7 @@ font-family: "Zilla Slab";
 	}
 	.bio{
 		margin:auto;
+		margin-bottom: 1.45rem;
 	}	
 	
 	.quarterBox{
@@ -225,6 +247,9 @@ font-family: "Zilla Slab";
 	.hideOnS{
 		display:none;
 	}
+	body{
+		margin:30px;
+	}
 
 
 	}
@@ -234,9 +259,7 @@ font-family: "Zilla Slab";
 	.fancyButton{
 		font-size:18px;
 	}
-	body{
-		margin:30px;
-	}
+	
 	.projectsContentSection{
 		display: grid;
 		grid-template-columns: repeat(1, 100%);

@@ -11,6 +11,7 @@ import "../styles/global.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <div className="pageWrapper">
     <section className="hero">
     <div className="introduction">
     <div className="rainbowWrap"><div className="titleWrapper"><h1 id="myName">Tristan Biehn</h1></div></div>
@@ -42,38 +43,38 @@ const IndexPage = () => (
       <h2>
       General Skills
       </h2>
-      <p>
-      Design tools: Sketch, InVision, Figma
-      Designing for software, mobile, and web.
-      Paying close attention to detail without losing track of the larger scale.
-      Collecting and analysing data, identifying and solving complex problems.
-      Translating ideas and facilitating communication between diverse groups.
-      Working within an agile design process, collaborating with other internal teams.
-      </p>
+      <ul>
+      <li>Design tools: Sketch, InVision, Figma</li>
+      <li>Designing for software, mobile, and web.</li>
+      <li>Paying close attention to detail without losing track of the larger scale.</li>
+      <li>Collecting and analysing data, identifying and solving complex problems.</li>
+      <li>Translating ideas and facilitating communication between diverse groups.</li>
+      <li>Working within an agile design process, collaborating with other internal teams.</li>
+      </ul>
       </div>
       <div className="resumeSection">
       <h2>
       UI
       </h2>
-      <p>
-      Developing mockups and prototypes.
-      Designing graphic interface elements.
-      Ensuring continuity in visual elements throughout the project.
-      Creating, using, and adding to component libraries and style guides.
-      Illustrating design ideas using storyboards, process flows, and site maps.
-      </p>
+      <ul>
+      <li>Developing mockups and prototypes.</li>
+      <li>Designing graphic interface elements.</li>
+      <li>Ensuring continuity in visual elements throughout the project.</li>
+      <li>Creating, using, and adding to component libraries and style guides.</li>
+      <li>Illustrating design ideas using storyboards, process flows, and site maps.</li>
+      </ul>
       </div>
       <div className="resumeSection">
       <h2>
       UX
       </h2>
-      <p>
-      Project planning and communication.
-      Developing wireframes, mockups, and prototypes.
-      Mobilizing qualitative and quantitative research techniques.
-      Communicating design ideas and prototypes to developers.
-      Gathering and evaluating user requirements in collaboration with other teams.
-      </p>
+      <ul>
+      <li>Project planning and communication.</li>
+      <li>Developing wireframes, mockups, and prototypes.</li>
+      <li>Mobilizing qualitative and quantitative research techniques.</li>
+      <li>Communicating design ideas and prototypes to developers.</li>
+      <li>Gathering and evaluating user requirements in collaboration with other teams.</li>
+      </ul>
       </div>
       <div className="resumeSection">
       <h2>
@@ -89,14 +90,15 @@ const IndexPage = () => (
       <h2>
       Education
       </h2>
-      <p>
-      Master’s in Cultural Anthropology at Concordia University <span className="gray">Ongoing.</span>
-      <br />
-      Bachelor’s with Honours in Sociology and Anthropology from Concordia University.
-      </p>
+      <ul>
+      <li>
+      Master’s in Cultural Anthropology at Concordia University <span className="gray">Ongoing.</span></li>
+      <li>Bachelor’s with Honours in Sociology and Anthropology from Concordia University.</li>
+      </ul>
       </div>
   </section>
-  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2 cm">Contact me</div></a></div>
+  <div className="d-flex center lastLine"><a href="mailto:blueberryhassle@gmail.com" className="no-ul"><div className="fancyBox2 cm">Contact me</div></a></div>
+  </div>
   </div>
   </div>
   </Layout>
