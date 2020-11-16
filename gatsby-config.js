@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Tristan Biehn`,
-    description: `BLURB.`,
-    author: `@gatsbyjs`,
+    description: `I’m a Montreal-based designer who draws from a background in Anthropology and ethnographic research to bring critical insights, incisive analysis, and a well-honed sense of empathy to the field of user experience. I’m into food and travel and I’ll drive any number of hours for really good beer.`,
+    author: `Michael Pinder`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
