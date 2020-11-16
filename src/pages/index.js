@@ -5,6 +5,7 @@ import Projects from "../components/projects"
 import dl from "../images/download.svg"
 import profile from "../images/compressedButStillProfesh.jpg"
 import resume from "../../static/tristanOct2020.pdf"
+import projects from "../../static/tbiehnPortfolio.pdf"
 import "../styles/global.css"
 
 
@@ -30,7 +31,7 @@ const IndexPage = () => (
   <section className="projects">
   <div className="rainbowWrap smallRainbow"><div className="titleWrapper">
       <h1>Projects</h1>
-      <div className="fancyBox"><div className="d-flex"><p>Download</p><img src={dl} /></div></div>
+      <div className="fancyBox"><a className="no-ul" href={projects} download><div className="d-flex"><p>Download</p><img src={dl} /></div></a></div>
     </div>
     </div>
     <Projects />
