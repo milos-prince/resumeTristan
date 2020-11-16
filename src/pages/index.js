@@ -17,7 +17,7 @@ const IndexPage = () => (
     <div className="rainbowWrap"><div className="titleWrapper"><h1 id="myName">Tristan Biehn</h1></div></div>
     <h2>UX/UI Designer</h2>
     <p className="bio">I’m a Montreal-based designer who draws from a background in Anthropology and ethnographic research to bring critical insights, incisive analysis, and a well-honed sense of empathy to the field of user experience. I’m into food and travel and I’ll drive any number of hours for really good beer.</p>
-    <p>Get in touch or check me out on LinkedIn.</p>
+    <p><a href="mailto:tristan.biehn@gmail.com">Get in touch</a> or check me out on <a href="https://www.linkedin.com/in/tristan-biehn-94884a169/">LinkedIn</a>.</p>
     </div>
 
     <div className="photoWrapper">
@@ -97,7 +97,7 @@ const IndexPage = () => (
       </ul>
       </div>
   </section>
-  <div className="d-flex center lastLine"><a href="mailto:blueberryhassle@gmail.com" className="no-ul"><div className="fancyBox2 cm">Contact me</div></a></div>
+  <div className="d-flex center lastLine"><a href="mailto:tristan.biehn@gmail.com" className="no-ul"><div className="fancyBox2 cm">Contact me</div></a></div>
   </div>
   </div>
   </div>
