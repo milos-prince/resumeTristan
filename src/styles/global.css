@@ -218,7 +218,11 @@ font-family: "Zilla Slab";
 .resumeSection h2{
 	margin-bottom:10px;
 }
-
+@media screen and (max-width: 1270px) {
+.pageWrapper{
+	background: white;
+}
+}
 @media screen and (max-width: 1170px) {
 	.photoWrapper{
 		display: none;
@@ -253,7 +257,8 @@ font-family: "Zilla Slab";
 		display:none;
 	}
 	body{
-		margin:30px;
+		
+		background:white;
 	}
 
 
@@ -270,6 +275,9 @@ font-family: "Zilla Slab";
 		grid-template-columns: repeat(1, 100%);
 		grid-gap: 1rem;
 		margin:0px 30px;
+	}
+	.pageWrapper{
+		padding:30px;
 	}
 
 }
