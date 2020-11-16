@@ -2,15 +2,20 @@
 
 body{
 	color:black;
-	background-color: white;
+	background: url(../images/pattern.png);
+	background-repeat: repeat;
 	margin:0px;
 	--blood: #89043D;
 }
-.pageWrapper{
-	max-width:1000px;
+footer{
 	background: white;
+	padding:0px 20px;
+}
+.pageWrapper{
+	max-width:1300px;
+	background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 95%, rgba(255,255,255,0) 100%);
 	margin:0px auto;
-	padding-top:60px;
+	padding:60px 100px 0px 100px;
 }
 h1, h2 {
 	font-family:"Poppins";
